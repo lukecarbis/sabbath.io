@@ -1,0 +1,7 @@
+.photo-form-wrapper .btn-filled, .bg-primary {
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#38899f), to(#474188)) !important;
+  background: -webkit-linear-gradient(top, #474188, #38899f) !important;
+  background: -moz-linear-gradient(top, #474188, #38899f) !important;
+  background: -ms-linear-gradient(top, #474188, #38899f) !important;
+  background: linear-gradient(top, #474188, #38899f) !important;
+}
