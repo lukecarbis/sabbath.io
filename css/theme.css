@@ -593,6 +593,11 @@ nav hr {
   padding-bottom: 18px;
   float: left;
 }
+@media all and (max-width: 768px) {
+  .nav-sticky .logo {
+    padding-bottom: 0;
+  }
+}
 .nav-sticky hr {
   display: none !important;
 }
@@ -2815,7 +2820,6 @@ footer.short-2 .contact-action:hover {
     display: none;
   }
   nav {
-    max-height: 80px;
     overflow: hidden;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -3173,7 +3177,6 @@ footer.short-2 .contact-action:hover {
     display: none;
   }
   nav {
-    max-height: 80px;
     overflow: hidden;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
