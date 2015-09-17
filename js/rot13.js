@@ -35,9 +35,13 @@ Rot13 = {
 	},
 
 	writeEmailLink: function( address, text ) {
+		var className = "";
+		if (arguments.length >= 3) {
+			className = arguments[2]
+		}
 		var decodedAddress = Rot13.convert( address ),
 		    decodedText    = Rot13.convert( text ),
-		    html           = '<a href="mailto:' + decodedAddress + '">' + decodedText + '</a>',
+		    html           = '<a href="mailto:' + decodedAddress + '" class="' + className + '">' + decodedText + '</a>',
 		    encodedHtml    = Rot13.convert( html );
 
 		Rot13.write( encodedHtml );
