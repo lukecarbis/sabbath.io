@@ -25,24 +25,6 @@ $(document).ready(function(){
 
 	$('.inner-link').smoothScroll({offset: -96, speed: 800});
 
-	// Mobile Toggle
-
-	$('.mobile-toggle').click(function(){
-		$('nav').toggleClass('open-nav');
-	});
-
-	// Margin first section for top bar
-
-	if(!$('nav').hasClass('overlay-bar') && !$('nav').hasClass('contained-bar')){
-		$('.main-container').first().css('margin-top', $('nav').outerHeight());
-	}
-
-	$(window).resize(function(){
-		if(!$('nav').hasClass('overlay-bar') && !$('nav').hasClass('contained-bar')){
-			$('.main-container').first().css('margin-top', $('nav').outerHeight());
-		}
-	});
-
 	// Pad first section for overlay bar
 
 	if($('nav').hasClass('overlay-bar') || $('nav').hasClass('contained-bar') ){
