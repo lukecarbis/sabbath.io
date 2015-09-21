@@ -128,25 +128,6 @@ section:nth-of-type(even) {
 .overlay-bar .has-dropdown:after {
   color: #fff;
 }
-.overlay-bar.nav-sticky .logo-light {
-  display: none;
-}
-.overlay-bar.nav-sticky .logo-dark {
-  display: block;
-}
-.nav-sticky {
-  position: fixed !important;
-  top: 0;
-}
-.nav-sticky .logo {
-  bottom: 5px;
-}
-.top-bar.nav-sticky {
-  background: rgba(255, 255, 255, 0.9);
-}
-.top-bar.nav-sticky .nav-menu {
-  padding: 40px;
-}
 
 .overlay:before {
   position: absolute;
