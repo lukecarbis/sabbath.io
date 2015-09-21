@@ -147,15 +147,6 @@ $(window).load(function(){
 	  container.isotope({ filter: filterValue });
 	});
 
-
-	var logoImage = $('.top-bar .logo:first-of-type');
-	var headline = $('header h1:first-of-type');
-
-	if (headline.offset().top > 200) {
-		var offset = headline.offset().top - parseInt(logoImage.outerHeight() + 100)
-		logoImage.css('marginTop', offset)
-	}
-
 });
 
 function alignVertical(){
