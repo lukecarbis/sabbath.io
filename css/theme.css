@@ -96,7 +96,6 @@ section:nth-of-type(even) {
 header {
   position: relative;
   overflow: hidden;
-  margin-top: -100px;
 }
 header .container {
   position: relative;
